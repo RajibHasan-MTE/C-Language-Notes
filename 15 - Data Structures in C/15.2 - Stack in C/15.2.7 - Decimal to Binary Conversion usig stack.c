@@ -14,11 +14,10 @@ int main(){
         push(num % 2);
         num /= 2;
     }
-    printf("Binary : ");
+
+    printf("Binary: ");
     while(top != -1)
         printf("%d", stack[top--]);
 
     return 0;
-
-
 }

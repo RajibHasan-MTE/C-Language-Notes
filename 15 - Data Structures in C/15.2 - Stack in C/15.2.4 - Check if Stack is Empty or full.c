@@ -23,7 +23,7 @@ int main(){
     printf("Is stack emty? %s\n", isEmpty() ? "Yes" : "No");
     push(1);
     push(2);
-    //push(3);
+    push(3);
 
     printf("Is stack full? %s\n", isFull() ? "Yes" : "No");
 
