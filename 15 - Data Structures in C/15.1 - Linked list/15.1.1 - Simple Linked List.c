@@ -19,9 +19,9 @@ int main(){
     struct Node* third = NULL;
 
     //Allocate memory
-    //head = (struct Node*)malloc(sizeof(struct Node));
-    //second = (struct Node*)malloc(sizeof(struct Node));
-    //third = (struct Node*)malloc(sizeof(struct Node));
+    head = (struct Node*)malloc(sizeof(struct Node));
+    second = (struct Node*)malloc(sizeof(struct Node));
+    third = (struct Node*)malloc(sizeof(struct Node));
 
     //Assign values
     head->data = 10;
